@@ -31,7 +31,7 @@ class Formulator(object):
 	batchSizeGal = 5.0 # Gallons
 	styleProfile = None
 	desiredOGGU = 0 # Desired OG, get from profile?
-					# = self.styleProfile.GUPerGallon * self.batchSizeGal
+			# = self.styleProfile.GUPerGallon * self.batchSizeGal
 
 	def __init__(self,styleProfile,batchSizeGal=5.0):
 		self.styleProfile = styleProfile
